@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	background: #333;
+	overflow: hidden;
+}
+ul li{
+	list-style-type: none;
+	float: left;
+}
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px;
+	text-transform: capitalize;
+	display: inline-block;
+}
+ul li a:hover{
+	background: blue;
+	opacity: .8;
+}
+.dropdown-container{
+	background: #f9f9f9;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+	display: none;
+	position: absolute;
+}
+.dropdown-container a{
+	display: block;
+	color: #333;
+}
+.dropdown-container a:hover{
+	background: #f1f1f1;
+}
+.dropdown:hover .dropdown-container{
+	display: block;
+}
+
+
